@@ -1,0 +1,547 @@
+Material do Curso (repositório de arquivos):
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+github.com/gustavoguanabara/html-css
+
+https://www.submarinecablemap.com/
+https://www.iplocation.net/
+
+Como funciona a internet:
+https://youtu.be/TNQsmPf24go
+
+06/01/22 - parei no video 9
+HTML : conteúdo (textos, imagens, vídeos, tabelas)
+CSS: design (cores, sombras, tamanhos, posicionamento)
+JavaScript: interações (menus, animações, popups, validações)
+
+Chrome Web Store para baixar a extensão Web Developer (possibilita desativar/ativar JS/CSS)
+
+No CSS (seletor, declaração: valor e propriedade) 20:12min
+
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+   </head>
+   <body>
+      <h1>Olá, Mundo!</h1>
+   </body>
+</html>
+
+07/01 - Inicio 
+Video 10
+Client-side : front-end
+Server-side : back-end
+Desenvolvedor front-end + back-end é chamado de full-stack
+
+Video 12 - Capitulo 4
+Dica: dentro do VS, para criar o código inicial/base de arquivo HTML, basta digitar "!" no arquivo criado
+
+Video 13 - Capitulo 5
+&lt; : para exibir o símbolo "<" dentro do código html   (lt - less than)
+&gt; : para exibir o símbolo ">" dentro do código html   (gt - greater than)
+
+Video 14 - qrcode para curso do pacote office 2:00m
+<br><br><br><br><br><br><br><br><br><br><br><br> -> gambiara ( o certo é usar o CSS para pular várias linhas )
+<!--  para comentários dentro do html -->
+
+No site emojipedia.org pode ser obtido os códigos dos emojis para colocar no site (é o código CODEPOINTS que deve ser utilizado) e coloca o código após 
+&#x que determina que o código que segue está em hexadecimal. Se copiar o emoji direto do site, pode ser que não funcione em todos os navegadores
+e ";" no final
+
+Video 15 - Capítulo 6 (Imagens, direitos autorais)
+Buscar no google e no botão de ferramentas, filtrar as que podem ser utilizadas "Marcadas para reutilização com modificação" (permite até que vc altere a imagem). 
+Ver os outros tipos de filtros: tem as que permite modificar, as para uso comercial ou não.
+Outros sites que podem encontrar imagens com permissão de uso:
+unsplash.com
+pexels.com
+pixabay
+wikimedia commons
+
+Utilizaremos o software GIMP para edição de imagem. (livre)
+
+Video 16 - Capítulo 6 - Formato de imagens
+Para web, normalmente é usado jpg (alta compactação) e png (compacta e permite transparência).
+
+Video 17 - Capítulo 6 - Trabalhando nas imagens com o Gimp
+Redimensionar os arquivos e dar Exportar como... (não usar salvar como)
+
+Video 18 - Capítulo 6 - Inserindo Imagem
+na tag img, na propriedade source src, ao estar dentro das aspas e clicar as teclas control + espaço, o vs code já exibirá os arquivos que constam no diretório do projeto.
+
+25/01
+Video 19 - Capítulo 6 - Mudar Favicon
+ctrl + n : abre nova janela do aplicativo que está em 1º plano
+Site com inúmeros icones: iconarchive.com
+Site para criar seu icone: favicon.cc
+Site para transformar arquivos em ícones : favicon.io
+
+Dentro do <Head> do Html e acima da tag <title>, colocar : link:favicon
+
+Vídeo 20 - Capítulo 7 - Hierarquia de Títulos
+Hierarquia: níveis do títulos
+Desde h1, h2, h3, h4, até h6 que é o ultimo nível
+
+Para gerar parágrafo com texto qualquer/aleatorio digitarr "lorem" dentro da tag <p>
+Ex.: <p>lorem</p> --> ele vai preencher com texto em latin
+
+Vídeo 21 - Capítulo 8 - Semântica na HTML5
+Várias tags ou parâmetros que existiam no Html4 foram descontinuadas e estão em "não conformidade" para o HTML5 apesar de algumas ainda funcionarem.
+HTML5 foca na semântica/significado/conteúdo, deixando a parte de apresentação/fonte/tamanho/cor/etc para os CSS.
+
+Vídeo 22 - Capítulo 8 - Formatação de texto com Estilo
+Texto em negrito/destaque : tag <b>   : só tem forma, não tem semantica
+Texto em negrito/destaque : tag <strong>   : tem semantica
+
+Texto em italico : tag <i> : só tem forma, não tem semântica
+Texto em italico/ênfase : tag <em> : tem semântica
+
+Comando de atalho do CS Code:
+Para agilizar a inclusão de tags no início e fim de um texto selecionado, utilizamos o que se chama de "envelopamento", assim:
+<ctrl>+<shift>+p : escolher em "wrap with abreviation/envelope com abreviatura" ou filtar com "abb" e depois a tag que quer usar, exemplo: p, em, etc
+- após habilitar isso, se vc selecionar um texto e, por exemplo, digitar "i" + <enter>, ele vai colocar a tag <i> itálico no texto selecionado
+
+Vídeo 23 - Capítulo 8 - Formatações adicionais em HTML
+Texto marcado : tag <mark>
+Texto grande : tag <big> : obsoleto
+Texto pequeno: tag <small>
+Texto como excluido : tag <del> : texto fica riscado, como se tivesse sido substituido
+Texto inserido : tag <ins> : fica sublinhado, mas tem semantica
+Texto sublinhado : tag <u> : só tem forma, não tem semãntica
+Texto sobrescrito : tag <sup>
+Texto subscrito : tag <sub>
+
+Video 24 - Capítulo 8 - Citações e Códigos
+Texto com fonte monoespaçada tipo código de programação : tag <code>  --> não tem identação se quiser usar o <code> dentro de outra tag que é a <pre>
+Texto identado : tag <pre>
+Citações simples : tag <q> : quote/citação
+Citações completas : tag <blockquote>  : pode usar o parametro cite apenas para referenciar uma url, etc, não criará link, mas pode ser utilizada por mecanismos de busca na internet (google, bing, etc)
+Abreviações:  tag <abbr> que tem o param "title" onde vc pode colocar o significado da abreviação/sigla   --> passando o mouse por cima, mosta o significado
+Texto invertido : tag <bdo> param "rtl" (right to left), "ltr" (left to right)
+
+Video 25 - Capítulo 9 - Listas OL e UL
+Listas ordenadas, não ordenadas e de definição
+Listas ordenadas : tag <ol> --> order list    dentro usar <li>  --> list item
+No html 5 o final </li> se tornou opcional
+Há o parametro type dentro de "ol" que permite alterar o tipo da númeração (A-MAIUSCULA,a-minuscula,I-ROMANO, i-romano)
+param "start" inicia a lista no número do elemento específico. Ex: start="5" inicia no 5 se for type=1 e inicia no E se for type=A
+
+Listas não ordenadas : não preciso enumerar
+Tag <ul> : un-order list
+Type (disk é o padrão, circle, square)
+
+Vídeo 26 - Capitulo 9 - Listas de definição, misturadas
+
+Dica: pressionando o <alt> e selecionando várias tags, eu consigo editar o texto delas ao mesmo tempo
+	
+Lista de definição : tag <dl>  : <dt> termo   : <dd> descrição
+Estas listas são utilizadas por mecanismos de buscas de conteúdo como google
+
+Vídeo 27 - Capítulo 10 - Links e Âncoras
+Links externos
+Tag <a> : ancora   param href -> referencia hipertexto
+parametros target="_blank" abre outra aba para que não perca a página origem onde está o link
+param rel="external" indica que o link é externo a sua página
+
+Vídeo 28 - Capítulo 10 - Links e Âncoras
+Links internos
+param rel="next" --> proxima pagina    param rel="prev"  --> previous/pagina anterior
+param rel="nofollow"  --> vc não dá aval para que o conteúdo do link que vc está inserindo (ex. para propagandas que podem ser alteradas no link que vc inseriu na sua página)
+param target="_self" : abre o link na própria aba que está aberta. Recomendável colocar no html 5
+
+Vídeo 29 - Capítulo 10 - Links para downloads
+Dentro do href, se não souber o link, colocar href="#" que indica ser um link vazio.
+
+Site com uma lista dos tipos e arquivos (mediatypes):
+https://www.iana.org/assignments/media-types/media-types.xhtml
+Ex.: pdf --> o media type é application/pdf
+
+<li><a href="livro.meulivro.zip" download="meulivro.zip" type="application/zip"Livro compactado em Zip</a></li>
+
+Vídeo 30 - Capítulo 10 - Desafios
+
+Vídeo 31 - Capítulo 11 - Mídias - Imagens dinâmicas
+Criando imagens em tamanhos diferentes
+Tag <picture> para configurar imagens para varios dispositivos
+
+
+Vídeo 32 - Capítulo 11 - Mídias - Imagens dinâmicas
+Criar imagens
+celular: imagem 300x300 resolução 80x80       --> foto-pequena.png
+tablet: imagem 700x700 resolução 80x80        --> foto-media.png
+computador: imagem 1000x1000 resolução 80x80  --> foto-grande.png
+
+<picture>
+   <source media="(max-width: 750px)" srcset="imagens/foto-pequena.png" type="image/png>
+   <source media="(max-width: 1050px)" srcset="imagens/foto-media.png" type="image/png>
+   <img src="imagens/foto-grande.png" alt="Imagem flexível">
+</picture>
+--> colocar nesta ordem dentro da tag picture, da foto menor até a maior
+
+Vídeo 33 - Capítulo 11 - Mídias - Colocando áudio
+Pode procurar audio na Biblioteca de Audio do youtube Studio
+
+- simples : Tag <audio> : param controls autoplay    --> MP3, wav, ogg
+- varios sources:
+<audio>
+   <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+   <source src="midia/guanacast-33.ogg" type="audio/ogg">
+   <source src="midia/guanacast-33.wav" type="audio/wav">
+   <p>Infelizmente seu navegador não consegue reproduzir áudio. </p>
+</audio>
+
+Vídeo 34 - Capítulo 11 - Mídias - Convertendo video
+Dica: software HandBrake : ferramenta gratuita para conversão de video
+
+formatos de video
+
+Vídeo 35 - Capítulo 11 - Mídias - Colocando vídeo local (muita banda para contratar)
+2 formas
+- simples : tag <video src"midia/meu-video.mp4" width="500" controls></video>
+- varios sources:
+<video width="500" poster="images/minha-capa.png" controls autoplay loop>
+   <source src="midia/meu-video.mp4" type="video/mp4">
+   <source src="midia/meu-video.m4v" type="video/mp4">
+   <source src="midia/meu-video.webm" type="video/webm">
+   <source src="midia/meu-video.ogv" type="video/ogv">
+   <p>Infelizmente seu navegador não consegue reproduzir vídeo. </p>
+</audio>
+
+Vídeo 36 - Capítulo 11 - Mídias - Incorporando vídeos Externos
+No youtube, clique em incorporar e será gerado o HTML que você copia e cola no seu site.
+No vimeo é similar, mas com mais recursos não é gratuíto
+
+Vídeo 37 - Capítulo 11 - Desafio
+
+Vídeo 38 - Capítulo 12 - Estilos CSS inline
+Inline: coloca o style em cada tag do <body>
+
+
+Vídeo 39 - Capítulo 12 - Estilos CSS Interno
+Especifica o estilo no arquivo todo dentro da tag <head>
+
+Vídeo 40 - Capítulo 12 - Estilos CSS Externo
+Especifica o arquivo de estilo exteno e faz referencia em várias páginas
+Utilizar dentro da tag <head> a tag link:css
+
+Módulo 2
+https://www.youtube.com/watch?v=vPNIAJ9B4hg&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s
+
+Vídeo 1 - Capítulo 13 - Apresentação do conteúdo do módulo 2
+
+Vídeo 2 - Capítulo 13 - Psicologia das Cores
+Exemplo de sites e suas cores
+
+Vídeo 3 - Capítulo 13 - Representando Cores em CSS3
+Combinação das cores
+- No VS Code, pela palheta de cores, clicando no titulo da palheta alteramos o modo de RGB, Hexadecimal e HSL. Na barra intermediaria podemos escolher também a transparência da cor (alpha) que modifica para RGBA, HSLA e para hexa coloca mais 2 digitos.
+Usos por: nome, hexadecimal, funções rgb e hsl, além de transparência de cores
+
+
+Vídeo 4 - Capítulo 13 - Harmonia de Cores
+Círculo Cromático com representação rgb: simplificando com 12 cores principais para harmonizar (simetria e cor)
+Cores primárias: amarelo, vermelho, azul (triangulo equilatero em pé)
+Cores secundárias: laranja, violeta, verde  (triangulo equilatero ao contrário)
+Cores terciárias (mais próximo das cores pastéis): misturas das cores primárias e secundárias. Nomeadas primeiro por cor primária e depois a cor secundária.
+Ex.: amarelo-esverdeado (1a e 2a) não por verde-amarelado (errado)
+Temperaturas das cores: 11 minutos do vídeo
+
+A palheta de cores de um site, tem de 3 a 5 cores, sem contar o branco e preto
+
+- Cores Complementares: que mais contrasta entre si, olhando para o circulo cromático. (lado oposto da cor).
+- Cores Análogas: pouco contraste uma da outra, pegar as cores vizinhas no circulo cromático.
+- Cores Análogas Relacionadas: pega duas cores vizinhas principais, pula uma cor e pega a seguinte, tendo uma palheta com 3 cores
+- Cores Intercalas: um pouco mais de contraste entre elas. Pega 1 cor, pula 1 e escolhe a outra. Pula de novo e pega a seguinte.
+- Cores Triádicas: pega 1 cor, pula 3 e pega outra (forma as cores do triangulo equilatero)
+- Cores em Quadrado: pega 1 cor, pula 2 e assim por diante. Palheta com 4 cores
+- Cores Tetrádicas: escolhe qq cor, sua complementar. Pega outra cor e seu complementar. (tipo um retangulo)
+- Monocromia: trabalha com 1 cor e modifica apenas sua saturação e luminosidade 3 vezes, dando uma palheta degradê com 4 cores.
+
+Vídeo 5 - Capítulo 13 - Paleta de Cores
+Site: color.adobe.com
+Menu Criar tem:
+Menu Disco de cores
+Modo de cores: RGB (para monitor), CMYK (para impressora), hsv, lab
+Menu Extrair Tema: vc consegue puxar um logo (desenho) e já pegar a palheta de cores dela.
+Menu Extrair gradiente: ele monta os degradês com base na palheta atual
+
+Menu Explorar tem:
+Em exibir, temas de cores que vc pode escolher palhetas prontas já com as configurações em CSS
+
+Menu Tendência:
+Tem fotos com as palhetas delas.
+
+Outra ferramenta/site muito bom: paletton.com
+Vc pode escolher o tipo da palheta e ele também já mostra o exemplo/sugestão (page layout) do Site com as cores da palheta
+
+Outra ferramenta: coolors.co (.co)
+Neste ele mostra a palheta e com "espaço" vai alterando as cores. Se gostar de alguma cor dá para bloquear (cadeado) a cor e ele vai trocando as demais.
+
+
+Vídeo 6 - Capítulo 13 - Como capturar cores da tela
+Melhor forma de capturar uma cor no chrome, sem perder ou alterar (pode acontecer com printscreen) é instalando o plugin "colorzilla" no chrome web store.
+
+Vídeo 7 - Capítulo 13 - Como criar Degradê com CSS
+Utilizar "*" no seletor da CSS significa que é uma configuração Global.
+
+background-image: linear-gradient
+to left, to top , to bottom ou coloco o grau do degradê 45deg, -45deg, após a cor pode colocar a porcentagem em que a cor deve ocupar na tela
+background-image: radial-gradient
+
+Vídeo 8 - Capítulo 13 - Criando exemplo real
+
+Vídeo 9 - Capítulo 14 - Primeiros passos em Tipografia
+Historia da tipografia
+
+Vídeo 10 - Capítulo 14 - Anatomia do tipo
+Partes do desenho da letra/Anatomia
+- Tamanho, espaço vertical/horizontal
+Curiosidade: a letra x (minusculo) é utilizada como base para demais letras para a altura das demais letras minúsculas (chamado de altura-x)
+Altura Ascendente é a altura da letra minúscula que vazou para cima em relação a altura-x. Ex.: das letras b e k que são mais altas
+Altura Descendente é a altura da letra minúscula que vazou para baixo em relação a altura-x. Ex.: das letra g e q que são mais baixas
+Altura do Corpo é a altura máxima das letras (tanto maiúscula como minusculas). Esta altura que é utilizada na CSS.
+
+Anatômicos geométricos: serifa pequeno simbolo nas pontas de algumas fontes. Guia a leitura, facilita a leitura
+termos: filete, haste , arco, esporão, vértice, terminal
+
+Anatômicos do corpo: braço, perna, pé (onde fica a serifa), espinha (letra S), barriga (b), olho (Q), area interna da letra, orelha (g - parte de cima), cauda (g e q - parte de baixo)
+
+Glifo é uma letra
+Todos os glifos/caracteres/letras de uma família chamamos de FONTE
+
+Familia tipografica (variações de um mesmo grifo): light, normal, seminegrito, negrito, extranegrito
+
+Categoria de Fontes: serifadas, sans-serif (sem serifa), monoespaçada (mesmo espaço lateral para toda letra), handwriting (fonte de escript, escriptada, simula mão), fonte display (sem as características básicas) 
+
+Vídeo 11 - Capítulo 14 - Familias de fonte com CSS
+Procurar no google as fontes que são sugeridas como combinações para os dispositivos:
+CSS web safe font combinations: w3schools
+
+Vídeo 12 - Capítulo 14 - Tamanho de fonte e sua medidas
+Medidas Absolutas
+cm, mm, in (polegada), px (pixel), pt (ponto), pc (paica)
+
+Medidas Relativas
+em (relativa ao tamanho altura "M" da fonte), ex (relativa a altura "x" da fonte)
+rem (relativa ao tamanho altura "M" da fonte configurada no root (body))
+vw (view width - largura da view port - tamanho da sua tela (view port))
+vh (altura da view port)
+% : com porcentagem
+
+Usaremos recomentação da W3C que será o "em" e "px"
+no font-size não pode haver espaço entre o número e medida. Errado: 1 px, 1 cm. Certo: 1px, 1cm
+Melhor utilizar em porque há telas, exemplo de tv que subdividem o pixel em unidades menores e pode ocorrer pequenas diferenças nestes dispositivos
+
+Vídeo 13 - Capítulo 14 - Peso, estilo e shorhand font
+Obs.: a fonte precisa ter estas opções para serem apresentadas e são poucas que possuem. Ex.: 'Work Sans'
+Peso: quando deixo a fonte mais magra ou mais gordinha  --> font-weight
+weight : peso
+width: largura
+height: altura
+Pesos literais: lighter, normal, bold, bolder
+Pesos numéricos: vai de 100 a 900
+
+Estilo: italic, normal  --> font-style
+Sublinhado: underline --> text-decoration
+
+Estas declarações são usadas demais em conjunto (font-family, font-weight, font-size e font-style) e é possível "condensá-las" numa declaração só através do "shorthand font"
+shorthand font = -font-style -> font-weight -> font-size -> font-family (nesta ordem)
+Ex: font: italic border 3em 'Work Sans', sans-serif;
+
+Vídeo 14 - Capítulo 14 - Usando Google Fonts
+entrar em fonts.google.com e buscar por Work Sans ou por "Categorias" selecionar as handwriting
+E sem precisar dar download na font, basta vc referenciar a font da própria internet através do conteúdo que está no botão 
+"select this style" ou nos quadradinhos/menu do google e copiar o conteudo de texto localizado na aba "Embed" --> @import e copiar o texto/regra que está no @import
+As selecionar o estilo, é mostrado quais as configurações a fonte possui.
+
+Em CSS as regras devem vir logo após a tag <style> ou no início do arquivo Global.
+As regras iniciam com @ . Ex.: @import
+
+Vídeo 15 - Capítulo 14 - Usando fontes externas baixadas
+Outro site de fontes: www.dafont.com
+Verificar se a fonte tem todos os glifos, como os acentuados para português, nem todas tem as letras acentuadas.
+
+Dentro de <style> criar um seletor especial chamado @font-face para usar a fonte baixada no computador
+    /* Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-att (Apple Advanced Typography)
+            - svg
+            */
+ 
+Vídeo 16 - Capítulo 14 - Capturando as fontes usadas em um site
+Plugin no google chrome: fonts ninja
+
+Vídeo 17 - Capítulo 14 - Detectando fontes dentro de imagens
+Sites para tentar descobrir as fontes dentro de uma imagem:
+- whatfontis.com
+- fontsquirrel
+- myfonts.com
+
+Vídeo 18 - Capítulo 14 - Alinhamento de textos com CSS
+text-align --> left, center, right, justify
+text-indent: afasta um pouco a 1a. linha da margem
+
+Vídeo 19 - Capítulo 15 - Identificadores e Classes nas CSS / Seletores Personalizados
+Necessário quando precisamos de uma configuração específica em um determinado item
+utilizar o "id" dentro da tab, isto é, dá um nome para a tag
+/* em HTML é id = em CSS é # 
+   em HTML é class = em CSS é .
+*/
+
+Vídeo 20 - Capítulo 15 - As diferenças entre id e class
+OBS.: num documento HTML só pode ter apenas 1 elemento com id. Apesar de funcionar está errado segundo a W3C
+Quando quizer a mesma configuração em mais de 1 elemento utilizar class
+Lembrando: <ctrl>+<shift>+<p> para envelopar com alguma configuração mais especifica ainda, por exemplo, alguma palavra dentro do parágrafo
+
+É possível colocar id e class no mesmo elemento, mas se tiver propriedades comuns neles, o id sobrepoe a configuração que estiver em class
+Também posso colocar mais de 1 classe no mesmo elemento, apenas separando o nome das classes com espaço " ". Ex. <h2 class="avancado destaque">
+
+Vídeo 21 - Capítulo 15 - Pseudo-classes em CSS
+: (2 pontos) representa uma pseudo-classe e estão relacionados ao estado de um elemento (ou ações/métodos que fazemos no elemento)
+
+Vídeo 22 - Capítulo 15 - Pseudo-elementos em CSS
+Mexem/interferem no conteúdo periférico do elemento.
+identificado por :: (2x 2 pontos)
+Ex.: a::after --> depois de todos os links
+
+Site https://erikasarti.com/html/dingbats-simbolos-desenhos/ --> possui vários simbolos do html5 ou buscar no google
+/* Seletores personalizados
+   #  = id 
+   .  = class
+   :  = pseudo-class
+   :: = pseudo-element
+   >  = children
+*/
+
+Vídeo 23 - Capítulo 16 - Modelo de Caixas em CSS
+HTML CSS Box Model
+Termo aninhamento: uma caixa dentro da outra
+Todo elemento visivel na tela dentro de um site é uma caixa
+altura: height
+largura: width
+Todo conteúdo tem uma altura/largura e pode ser colocado uma borda que circula este conteúdo
+border : circula a box/caixa
+padding : acolchoamento/preenchimento: espaço que posso dimensionar entre o texto/conteúdo e a borda da box. Padding esquerda, direita, cima e baixo
+margin: margem é o espaço externo a borda que posso configurar para não "grudar" dois conteúdos/bordas
+outline: dentro da margem, logo colado do lado de fora borda posso criar outro tracejado/linha que é chamado contorno ou traçado (é fora do elemento)
+
+Tipos de caixa:
+- Box-level: se inicia numa linha nova, ocupa a largura total da tela (100% da viewport).
+Ex.: <div>, <h1> - <h6>, <p>, <main>, <header>, <nav>, <article>, <aside>, <footer>, <form>, <video>
+- Inline-level: não pula para linha. Ocupa o espaço do elemento e não quebra a linha. (dentro da linha)
+Ex.: <span>, <a>, <code>, <small>, <strong>, <em>, <sup>-<sub>, <label>, <button>, <input>, <select>
+
+Vídeo 24 - Capítulo 16 - Modelo de Caixas na prática (parte 1)
+Box level = display: block
+Dá para verificar as configurações da página ao Inspecionar (botao direito do mouse) a página.
+Nela há várias configurações que o próprio navegador coloca no estilo, identificada por "user agent stylesheet"
+Inline-level = display: inline
+Ordem de configuração da borda, margem e padding como o relogio: em cima, direita, em baixo, esquerda
+ 
+Vídeo 25 - Capítulo 16 - Modelo de Caixas na prática (parte 2)
+Margem outline
+Simplificando com shorthanding
+
+display: inline-block --> o elemento continua sendo inline mas dá para configurar algumas propriedades de bloco como margem, padding etc
+
+Vídeo 26 - Capítulo 16 - Grouping Tags em HTML5
+Tags semanticas do HTML5 são melhores para os mecanismos de buscas que as ainda suportadas tags <div id="xx"> muito utilizadas no HTML anterior. Isto é, são divs especiais pois há a semantica envolvida.
+Ex.: <header>, <main>, <footer>
+Exercicio 021 - caixa02.html   --> primeiro site com CSS
+
+Vídeo 27 - Capítulo 16 - Sombra nas Caixas
+vamos utilizar shorthanding para facilitar
+
+Vídeo 28 - Capítulo 16 - Caixas com vértices arredondados
+
+Vídeo 29 - Capítulo 16 - Caixas decoradas, com imagens
+Podemos criar no gimp, imagem nova 80x80, opcao avançada -> resoluçao de 70x70 e preencher com "transparência" (opcional)
+
+Vídeo 30 - Capítulo 16 - desafio
+Vídeo 31 - Capítulo 17 - Criando um projeto do zero
+Vídeo 32 - Capítulo 17 - Navegando pelo projeto pronto
+
+Vídeo 33 - Capítulo 17 - Planejando a estrutura do seu site
+Ferramenta de planejamento de site gratuíto:
+- Layout: mockflow.com (a parte gratuita já é muito boa). Desenha o formato do site
+Mock: Objetos mock, objetos simulados ou simplesmente mock em desenvolvimento de software são objetos que simulam o comportamento de objetos reais de forma controlada. São normalmente criados para testar o comportamento de outros objetos
+- Cores: adobe color
+- Fontes: fonts.google.com
+
+Vídeo 34 - Capítulo 17 - Transformando o layout em código
+
+Vídeo 35 - Capítulo 17 - Organizando o conteúdo do site
+colocando links, fotos, videos
+
+Vídeo 36 - Capítulo 17 - Variáveis em CSS
+
+Vídeo 37 - Capítulo 17 - Responsividade para sites
+Configurar para os diversos dispositivos
+Responsividade: o seu site vai responder/se adaptar de acordo com o tamanho da tela do usuário.
+No próprio celular normalmentoe usamos ele em pé ver texto e deitado para assistir vídeos.
+
+Vamos instalar o plug-in/extensão: Window Resizer pelo Chrome Web Store
+Configurações do plug-in: clicar em "got it" depois ligar o "i-izinho" e "Permitir acesso a URLs de arquivos"
+ou vai por "Extensões" --> botão "saiba mais" e tem esta permissão para alterar
+Com esta extensão é possível ser o tamanho da minha "view port" e também em tamanhos predeterminados dele.
+
+Vídeo 38 - Capítulo 17 - Responsividade na prática
+
+Vídeo 39 - Capítulo 17 - Configurando o header e o menu do site
+
+Vídeo 40 - Capítulo 17 - Melhorando o formato do conteúdo
+
+Vídeo 41 - Capítulo 17 - Rodapé, conteúdo periférico e links
+
+Vídeo 42 - Capítulo 17 - Tornando o link de vídeo responsivo
+Artifícios para colocar o video centralizado
+
+Módulo 3
+https://www.youtube.com/watch?v=ofFgnDtn_1c&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ
+
+Vídeo 1 - Capítulo 18 - Apresentação do conteúdo do módulo 3
+Capitulos 18-21
+Git e Github desktop
+19 - Parte visual: efeito paralax
+20 - Hospedar o site
+21 - Usar tabelas em HTML
+
+Vídeo 2 - Capítulo 18 - O que é Git e Github
+Repositório local/remoto
+versionamento local: git --> gratuito
+GitHub: repositório gratuito na nuvem/remoto (comprado pele Microsoft)
+Curso do github no canal: https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA
+
+Vídeo 3 - Capítulo 18 - Instalando o Git e Github no PC
+Instalação
+Baixar o git de git-scm.com   (scm - source code manager/gerenciador de código fonte)
+Github: ferramenta que auxilia visualmente para não precisar dar comandos no terminal
+Pesquisar no google o termo "github desktop" e baixar do site https://desktop.github.com/
+Instalar 1º o Git e depois o Github Desktop
+
+Vídeo 4 - Capítulo 18 - Criando conta no GitHub
+Vídeo 5 - Capítulo 18 - Primeiro repositório git e GitHub
+Vídeo 6 - Capítulo 18 - Gerenciando Repositórios GitHub
+Vídeo 7 - Capítulo 18 - Hospedando gratuitamente com GitHub
+https://carlosmaiausp.github.io/HTML5eCSS3/
+Como gerar um qr-code com uma URL:
+Entrar no site qr-code-generator.com escolher URL e colar seu link para gerar o qr-code esperando um pouco o download sem precisar clicar em nada ou assinar o site.
+https://carlosmaiausp.github.io/projeto-android/
+
+Observação importante, o GitHub Pages (hospedagem de páginas no github) aceita apenas HTML, CSS e Javascript. Ele não tem compatibilidade com PHP ou acesso a Banco de dados.
+
+Vídeo 7 - Capítulo 18 - Manutenção em Sites hospedados no GitHub Pages
+
+
+
+Contipowercontact 2 175/70r14 84t
+31143435
+
+
+Próximo video
+

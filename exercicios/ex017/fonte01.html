@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work Sans', Arial, Helvetica, sans-serif
+            font-size: 1em ;  /* 16px tamanho normal geralmente é igual a 1em */
+
+        }
+        h1 {
+        /* Sem shorthand
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;        */
+        /* Com shorthand 
+        -font-style -> font-weight -> font-size -> font-family (nesta ordem)
+        */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    }
+
+    </style>
+
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptatum aspernatur suscipit alias nam eveniet unde dolore dignissimos ab? Quaerat dolores neque quos nostrum, earum officiis pariatur cupiditate ratione sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis qui ipsam dolorum facilis alias aperiam, numquam adipisci, sequi laborum perspiciatis ab itaque magnam atque sapiente saepe cupiditate fugit molestias quae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquam possimus illo est laboriosam? Obcaecati at quia illum enim repudiandae totam laudantium, quaerat ut dolore! Qui, quos. Magni, atque facilis.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo est corrupti ut debitis beatae, ea distinctio iste voluptatem exercitationem quidem similique, amet officia veritatis nemo repellendus natus earum aliquam porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolores repudiandae, ex odio est enim atque aliquid fugit architecto molestiae fugiat maxime? Facilis itaque iste hic nostrum, commodi necessitatibus cumque.</p>
+</body>
+</html>
