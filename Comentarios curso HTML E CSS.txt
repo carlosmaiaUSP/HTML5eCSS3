@@ -560,8 +560,13 @@ Pronto os dados estarão atualizados no Github remoto e no local não haverá ma
 Observação: segurança no github - Assistir vídeo 11 do Curso de GitHub do Guanabara
 https://www.youtube.com/watch?v=bsI6P_IM_hg&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&index=11
 
+Instalar o aplicativo do Google, chamado Authenticator,  que será utilizado para receber os códigos para autenticar em 2 fases.
+procurar app- Google Authenticator na Store
 
-Vídeo 12 - Capítulo 19 - Github em vários PCs
+Vídeo 12 - Capítulo 19 - Download das imagens do capitulo
+Trabalhando com imagens de fundo
+
+Vídeo 13 - Capítulo 19 - Colocando uma imagem de fundo no seu site
 
 
 
