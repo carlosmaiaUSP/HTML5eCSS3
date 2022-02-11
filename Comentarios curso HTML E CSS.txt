@@ -537,7 +537,31 @@ https://carlosmaiausp.github.io/projeto-android/
 
 Observação importante, o GitHub Pages (hospedagem de páginas no github) aceita apenas HTML, CSS e Javascript. Ele não tem compatibilidade com PHP ou acesso a Banco de dados.
 
-Vídeo 7 - Capítulo 18 - Manutenção em Sites hospedados no GitHub Pages
+Vídeo 8 - Capítulo 18 - Manutenção em Sites hospedados no GitHub Pages
+
+Vídeo 9 - Capítulo 18 - Recursos Sociais do Github
+como seguir pessoas, etc
+Página que também permite procurar/explorar pessoas e projetos, além do search da pagina principal do github: github.com/explore
+Tem empresas tb no github
+Ex.: github.com/microsoft   onde há repositorios exemplo do vscode, etc
+github.com/microsoft/vscode
+
+Vídeo 10 - Capítulo 18 - Clonando Repositórios Github
+
+Vídeo 11 - Capítulo 18 - Github em vários PCs
+Lembrar de configurar no Github desktop: file --> options --> Git (e salvar)
+Se vc estiver em um computador temporário e quiser apagar seu "rastro" após as alterações num projeto:
+0-Fechar os arquivos que usou e que estão abertos (vscode, etc)
+1-Remover repositorio e conteúdo (jogar para lixeira).
+2-No github desktop, entrar em Options --> Account e dar Sigout, depois em Options --> GIT e remover nome do usuário e email (salvar)
+3-Apagar a lixeira.
+Pronto os dados estarão atualizados no Github remoto e no local não haverá mais nenhum arquivo
+
+Observação: segurança no github - Assistir vídeo 11 do Curso de GitHub do Guanabara
+https://www.youtube.com/watch?v=bsI6P_IM_hg&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&index=11
+
+
+Vídeo 12 - Capítulo 19 - Github em vários PCs
 
 
 
