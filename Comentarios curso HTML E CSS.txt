@@ -568,6 +568,22 @@ Trabalhando com imagens de fundo
 
 Vídeo 13 - Capítulo 19 - Colocando uma imagem de fundo no seu site
 
+parou de dividir os videos (propagandas)
+Vídeo 14 - Capítulo 19 - Imagens que se repetem no fundo do seu site
+ background-repeat: repeat; 
+ background-repeat: no-repeat; 
+ background-repeat: repeat-x; 
+ background-repeat: repeat-y; 
+
+Vídeo 15 - Capítulo 19 - Configurando a posição da imagem no fundo do site
+background-position
+background-position: right bottom;   
+Sempre coluna x linha
+coluna: left center right
+linha: top center bottom
+
+Vídeo 16 - Capítulo 19 - Mudando o tamanho da imagem de fundo do site
+https://www.youtube.com/watch?v=lNaoi5AUCsc&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=16
 
 
 Contipowercontact 2 175/70r14 84t
