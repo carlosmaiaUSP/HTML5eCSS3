@@ -529,6 +529,8 @@ Vídeo 5 - Capítulo 18 - Primeiro repositório git e GitHub
 Vídeo 6 - Capítulo 18 - Gerenciando Repositórios GitHub
 Vídeo 7 - Capítulo 18 - Hospedando gratuitamente com GitHub
 https://carlosmaiausp.github.io/HTML5eCSS3/
+Curso de Html5 e CSS3 do Curso em Video
+Estou aprendendo a criar sites e agora gerenciar meus repositórios!
 Como gerar um qr-code com uma URL:
 Entrar no site qr-code-generator.com escolher URL e colar seu link para gerar o qr-code esperando um pouco o download sem precisar clicar em nada ou assinar o site.
 https://carlosmaiausp.github.io/projeto-android/
