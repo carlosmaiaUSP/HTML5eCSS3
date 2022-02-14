@@ -583,6 +583,10 @@ coluna: left center right
 linha: top center bottom
 
 Vídeo 16 - Capítulo 19 - Mudando o tamanho da imagem de fundo do site
+background-size: contain /* 100% da imagem é mostrada mas conforme o tamanho da viewport apresenta barras nas na bordas */
+background-size: cover /* ocupa a viewport mesmo que precise "picotar" a lateral da imagem colocada no background - melhor opção */
+
+
 https://www.youtube.com/watch?v=lNaoi5AUCsc&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=16
 
 
