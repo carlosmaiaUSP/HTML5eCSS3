@@ -611,8 +611,10 @@ Vídeo 21 - Capítulo 20 - Ajustes no HTML do projeto
 Vídeo 22 - Capítulo 20 - Ajustes no CSS do projeto
 Efeito parallax (imagem rola ao fundo quando rolamos a barra de rolagem)
 
+Vídeo 23 - Capítulo 20 - Colocando as fontes ao projeto
 
-https://www.youtube.com/watch?v=lNaoi5AUCsc&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=16
+Vídeo 24 - Capítulo 20 - Imagens com efeito Parallax simples
+
 
 
 Contipowercontact 2 175/70r14 84t
