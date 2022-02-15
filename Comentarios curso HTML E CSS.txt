@@ -604,7 +604,11 @@ transform: translate(-50%, -50%);
 
 Vídeo 19 - Capítulo 20 - Um projeto completo usando HTML e CSS
 Vídeo 20 - Capítulo 20 - Download e organização dos arquivos
+https://github.com/gustavoguanabara/html-css/raw/master/desafios/modulo-02/d012/pacote-d012.zip
 
+Vídeo 21 - Capítulo 20 - Ajustes no HTML do projeto
+
+Vídeo 22 - Capítulo 20 - Ajustes no CSS do projeto
 
 
 
