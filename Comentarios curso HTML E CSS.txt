@@ -635,6 +635,45 @@ vertical-align: top;  /* Alinhamento Vertical - padrão é middle. Top ou bottom
 
 Vídeo 29 - Capítulo 21 - Aprendendo a trabalhar com tabelas grandes
 Tags semânticas para tabelas grandes (w3c):
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+Vídeo 30 - Capítulo 21 - Caption e Escopo de títulos em tabelas
+<th scope="col">Estado</th>
+<th scope="row">Total de Habitantes</th>
+
+Vídeo 31 - Capítulo 21 - Efeito Zebrado na tabela com HTML e CSS
+     /* Efeito zebrado */
+        tbody > tr:nth-child(2n) {     /* pseudo-classe nth-child das tr's. 2n --> de 2 em 2 linhas */
+            background-color: lightgray;
+        }
+Pode usar odd - impar (2n-1) ou even - impar (2n)
+
+Vídeo 32 - Capítulo 21 - Cabeçalho fixo em tabelas grandes
+Não está funcionando em todos os navegadores neste momento. 
+na table:
+position: relative
+       /* cabeçalho fixo */
+        thead > tr > th {
+            position: sticky;   /* sticky - grudável */
+            top: -1px;
+            background-color: #383838;    /* mesma cor que estiver no background de thead, senão o texto fica transparente */
+
+OBS.: Ao rolar a tabela e ela terminar o cabeçalho fixo não é mostrado.
+
+Vídeo 33 - Capítulo 21 - Mesclagem de células
+rowspan , colspan
+
+Vídeo 34 - Capítulo 21 - Desafio 1
+https://www.youtube.com/watch?v=MnznvoNuy-I&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=34
 
 
 
