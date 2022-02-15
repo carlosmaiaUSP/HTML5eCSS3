@@ -586,6 +586,27 @@ Vídeo 16 - Capítulo 19 - Mudando o tamanho da imagem de fundo do site
 background-size: contain /* 100% da imagem é mostrada mas conforme o tamanho da viewport apresenta barras nas na bordas */
 background-size: cover /* ocupa a viewport mesmo que precise "picotar" a lateral da imagem colocada no background - melhor opção */
 
+voltou a dividir os videos
+Vídeo 17 - Capítulo 19 - background-attachment e shorhand
+Vinculos do seu background (travado ou ao conteúdo)
+background-attachment: fixed  --> assim vc rola a tela e o background fica fixo
+shorthand - background
+nesta ordem:  color > image > position > repeat > [size] > attachment
+Obs para size: o size apesar de estar na documentação do shorthand, não está funcionando, então declarar o site fora do shorthand
+
+Vídeo 18 - Capítulo 19 - Centralização vertical das caixas
+Usar 2 caixas/divs semanticas dentro do corpo uma dentro da outra
+A caixa externa fica com position: relative e a interna: absolute (que permite configurar as posições x e y da caixa)
+usar da caixa interna: 
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+
+Vídeo 19 - Capítulo 20 - Um projeto completo usando HTML e CSS
+Vídeo 20 - Capítulo 20 - Download e organização dos arquivos
+
+
+
 
 https://www.youtube.com/watch?v=lNaoi5AUCsc&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=16
 
