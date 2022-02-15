@@ -617,12 +617,25 @@ Vídeo 24 - Capítulo 20 - Imagens com efeito Parallax simples
 
 Vídeo 25 - Capítulo 20 - Hospedando o Projeto Cordel gratuitamente
 
+Vídeo 26 - Capítulo 21 - Ainda podemos usar tabelas em HTML?
+Você NÃO PODE usar tabela para montar a estrutura do seu site
 
+Vídeo 27 - Capítulo 21 - Sua primeira tabela em HTML
+    <!-- HIERARQUIA DE TABELAS (SIMPLES)
+        TABLE = tabela
+            TABLE ROW = linha de tabela <tr>
+                TABLE HEADER = cabeçalho de tabela
+                TABLE DATA = dado de tabela
+    -->
+OBS.: no HTML5 a W3C deixou como opcional o fechamento das tags tr e td -->  </tr> </td> (não precisaria)
 
+Vídeo 28 - Capítulo 21 - Alinhando o conteúdo em tabelas
+text-align: center;   /* Alinhamento Horizontal - padrão é left. Center ou right */
+vertical-align: top;  /* Alinhamento Vertical - padrão é middle. Top ou bottom */
 
+Vídeo 29 - Capítulo 21 - Aprendendo a trabalhar com tabelas grandes
+Tags semânticas para tabelas grandes (w3c):
 
-Contipowercontact 2 175/70r14 84t
-31143435
 
 
 Próximo video
