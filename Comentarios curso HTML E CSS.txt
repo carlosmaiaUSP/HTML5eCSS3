@@ -685,14 +685,18 @@ scope="rowgroup"  --> quando o escopo é um conjunto/grupo de linhas
 
 Vídeo 37 - Capítulo 21 - Desafio 2
 
+Vídeo 38 - Capítulo 21 - Agrupando Colunas com colgroup
+Como dar destaque/alterar a cor de uma coluna?
+Usando a tag <colgroup> dentro da <table> para não precisar alterar a coluna linha por linha
+Ex023 -> tabela005.html
+
+Vídeo 39 - Capítulo 21 - Tabelas responsivas
+Dica de ouro para não rolar a tabela é colocar toda a tabela <table> dentro de uma <div>
+Identifica esta div (ex.: id#container):
+        div#container {
+            overflow-x: auto;
+        }
+Assim, somente a tabela apresenta a rolagem lateral e o restante da página fica melhor
 
 
-Olá Neusa, este atendimento está registrado sob o nº 2021121640000878089.
-**Protocolo: 60032356
-Senha: 2793
-Agendamento: 17/12 das 08h às 12hrs**
-Av. Ministro Urbano Marcondes, 11 - Guaratinguetá (SP), fone: (12) 98185-2793 (meu filho) e (12) 3125-4242, email: maiabraga1@gmail.com
-
-
-Em 16/12/21 abri uma solicitação para assistência de vidros no protocolo 60032356, mas ainda na vigência da apólice anterior. Gostaria de saber se ainda posso reabri-la pois só consegui os vidros agora ou se preciso abrir outra assistência? Inclusive tb quero confirmar se há assistência para a substituição destes vidros, que são comuns, mas com desenho.
-
+Proximo Capítulo iFrame

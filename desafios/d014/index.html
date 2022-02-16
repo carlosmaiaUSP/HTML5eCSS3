@@ -27,18 +27,17 @@
             text-align: center;   /* Alinhamento Horizontal - padrão é left. Center ou right */
             vertical-align: center;  /* Alinhamento Vertical - padrão é middle. Top ou bottom */
         }
+
+        .grupo {
+            background-color: gray;
+            color: white;
+        }
+
         th.grupo {
            text-align: left;
-           background-color: gray;
-           color: white;
 
         }
-        td.td_grupo {
-           background-color: gray;
-           color: white;
 
-        }
- 
     </style>
 </head>
 <body>
@@ -84,7 +83,7 @@
             </tr>
             <tr>
                 <th colspan="4" scope="row" class="grupo">Média de Exatas</th>
-                <td class="td_grupo">0.0</td>
+                <td class="grupo">0.0</td>
             </tr>
             <tr>
                 <th rowspan="2" scope="rowgroup">Humanas</th>
@@ -101,7 +100,7 @@
             </tr>
             <tr>
                 <th colspan="4" scope="row" class="grupo">Média de Humanas</th>
-                <td class="td_grupo">0.0</td>
+                <td class="grupo">0.0</td>
             </tr>
         </tbody>
     </table>
